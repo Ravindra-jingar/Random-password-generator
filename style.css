@@ -64,3 +64,39 @@ body{
   padding: 16px;
   border-radius: 10px 26px;
 }
+@media (max-width: 768px) {
+  .container {
+    margin: 20px;
+  }
+
+  .container h1 {
+    font-size: 30px;
+  }
+
+  .display {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .display input {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .display img {
+    width: 25px;
+  }
+
+  .container button {
+    font-size: 18px;
+    padding: 12px;
+    flex-direction: row;
+  }
+
+  .container button img {
+    width: 24px;
+    margin-right: 8px;
+  }
+}
